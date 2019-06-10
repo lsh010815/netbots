@@ -3,22 +3,28 @@
 
 ## Classes
 
-### Default
+### default
 <img src="images/default.png" width="60%">
 
-### Heavy
+### heavy
 <img src="images/heavy.png" width="60%">
 
-### Light
+### light
 <img src="images/light.png" width="60%">
 
-### MachineGun
+### machineGun
 <img src="images/machineGun.png" width="60%">
 
-### Sniper
+### sniper
 <img src="images/sniper.png" width="60%">
 
-### Turtle
+### turtle
 <img src="images/turtle.png" width="60%">
 
+## How to make classes system work
+In rundemo.bat, add `-allowclasses` in start server line.
+```
+start "NetBot-Server" cmd /K py -3 src/netbots_server.py -p 20000 -allowclasses
+```
+Then in your robot join request line, add a class message with a class
 
